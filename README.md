@@ -1,19 +1,15 @@
 # doxyjs
 
-A simple CLI tool for converting Javascript into psudo C++ for [Doxygen](http://www.stack.nl/~dimitri/doxygen/), inspired by [doxyqml](https://github.com/agateau/doxyqml).
+A simple CLI tool for converting Javascript into pseudo C++ for [Doxygen](https://doxygen.nl/), inspired by [doxyqml](https://github.com/agateau/doxyqml).
+
+This is a fork of dmitrytoropchin's unmaintained [DoxyJS](https://github.com/dmitrytoropchin/doxyjs) source code. The intent of this repo is to continue development and implement quality of life upgrades to DoxyJS. 
 
 ## Installation
 
 Install it once globally via [`npm`](https://www.npmjs.com/package/doxyjs):
 
 ```sh
-npm install -g doxyjs
-```
-
-Or via [`yarn`](https://yarnpkg.com/en/package/doxyjs):
-
-```sh
-yarn global add doxyjs
+npm install -g git+https://github.com/andreceridian/doxy.git
 ```
 
 ## Usage
@@ -66,7 +62,7 @@ To use `doxyjs` with Doxygen you must make few changes to your Doxyfile.
 *   Add the `.js` extension to the `FILTER_PATTERNS`:
 
     ```
-    FILTER_PATTERNS = *.js=doxyjs
+    FILTER_PATTERNS = *.js=doxyjs //where doxyjs is the path to the installed node_module
     ```
 *   Add the `.js` extension to `FILE_PATTERNS`:
 

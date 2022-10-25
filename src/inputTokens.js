@@ -139,7 +139,7 @@ const multiline_comment_begin_matcher = (tokens, line) => {
 };
 
 const multiline_comment_file_matcher = (tokens, line) => {
-  const expr = /^\s*\*\s+[@\\]file\s+(.+)$/;
+  const expr = /^\s*\*\s+[@\\]file\s+(.+)/;
   const match = line.match(expr);
 
   if (match) {
@@ -153,7 +153,7 @@ const multiline_comment_file_matcher = (tokens, line) => {
 };
 
 const multiline_comment_brief_matcher = (tokens, line) => {
-  const expr = /^\s*\*\s+[@\\]brief\s+(.+)$/;
+  const expr = /^\s*\*\s+[@\\]brief\s+(.+)/;
   const match = line.match(expr);
 
   if (match) {
@@ -167,7 +167,7 @@ const multiline_comment_brief_matcher = (tokens, line) => {
 };
 
 const multiline_comment_param_matcher = (tokens, line) => {
-  const expr = /^\s*\*\s+[@\\]param\s+(type:(\w+)\s+)*(\w+)\s*(.*)$/;
+  const expr = /^\s*\*\s+[@\\]param\s+(type:(\w+)\s+)*(\w+)\s*(.*)/;
   const match = line.match(expr);
 
   if (match) {
@@ -194,7 +194,7 @@ const multiline_comment_param_matcher = (tokens, line) => {
 };
 
 const multiline_comment_return_matcher = (tokens, line) => {
-  const expr = /^\s*\*\s+[@\\]return\s+(type:(\w+)\s+)*(.*)$/;
+  const expr = /^\s*\*\s+[@\\]return\s+(type:(\w+)\s+)*(.*)/;
   const match = line.match(expr);
 
   if (match) {
