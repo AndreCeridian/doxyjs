@@ -9,7 +9,7 @@ This is a fork of dmitrytoropchin's unmaintained [DoxyJS](https://github.com/dmi
 Install it once globally via [`npm`](https://www.npmjs.com/package/doxyjs):
 
 ```sh
-npm install -g git+https://github.com/andreceridian/doxy.git
+npm install -g git+https://github.com/CeridianWeb/doxyjs.git
 ```
 
 ## Usage

@@ -1,17 +1,23 @@
 {
   "name": "doxyjs",
-  "version": "1.3.2",
-  "description": "Converts Javascript into psudo C++ for Doxygen",
+  "version": "2.0.1",
+  "description": "Converts Javascript into pseudo C++ for Doxygen",
   "main": "index.js",
   "author": "Dmitry Toropchin",
+  "contributors": [
+    {
+      "name": "Andre Burgoyne",
+      "url": "https://github.com/CeridianWeb/doxyjs"
+    }
+  ],
   "license": "MIT",
-  "homepage": "https://github.com/dmitrytoropchin/doxyjs",
+  "homepage": "https://github.com/CeridianWeb/doxyjs",
   "bugs": {
-    "url": "https://github.com/dmitrytoropchin/doxyjs/issues"
+    "url": "https://github.com/AndreCeridian/doxyjs/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dmitrytoropchin/doxyjs.git"
+    "url": "https://github.com/CeridianWeb/doxyjs.git"
   },
   "dependencies": {
     "commander": "^2.20.0",

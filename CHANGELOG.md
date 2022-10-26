@@ -1,3 +1,6 @@
+## 2.0.1
+
+-  fixed regex value bug
 
 ## 1.3.4
 
