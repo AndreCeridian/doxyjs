@@ -1,6 +1,6 @@
 {
   "name": "doxyjs",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Converts Javascript into pseudo C++ for Doxygen",
   "main": "index.js",
   "author": "Dmitry Toropchin",
