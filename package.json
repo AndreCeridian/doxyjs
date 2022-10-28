@@ -1,6 +1,6 @@
 {
-  "name": "doxyjs",
-  "version": "2.0.2",
+  "name": "ceridiandoxyjs",
+  "version": "2.0.3",
   "description": "Converts Javascript into pseudo C++ for Doxygen",
   "main": "index.js",
   "author": "Dmitry Toropchin",
@@ -31,7 +31,7 @@
     "jest": "^24.8.0"
   },
   "bin": {
-    "doxyjs": "dist/index.js"
+    "ceridiandoxyjs": "dist/index.js"
   },
   "files": [
     "dist/"
