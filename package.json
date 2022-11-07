@@ -1,6 +1,6 @@
 {
   "name": "ceridiandoxyjs",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Converts Javascript into pseudo C++ for Doxygen",
   "main": "index.js",
   "author": "Dmitry Toropchin",
@@ -20,15 +20,15 @@
     "url": "https://github.com/CeridianWeb/doxyjs.git"
   },
   "dependencies": {
-    "commander": "^2.20.0",
+    "commander": "^9.4.1",
     "localize": "^0.4.7"
   },
   "devDependencies": {
-    "@babel/cli": "^7.5.5",
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "eslint": "^6.1.0",
-    "jest": "^24.8.0"
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.6",
+    "@babel/preset-env": "^7.19.4",
+    "eslint": "^8.26.0",
+    "jest": "^29.2.2"
   },
   "bin": {
     "ceridiandoxyjs": "dist/index.js"

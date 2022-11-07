@@ -1,6 +1,7 @@
-## 2.0.3
+## 2.0.4
 
 -  fixed regex value bug
+-  dependencies upgrade
 
 ## 1.3.4
 
