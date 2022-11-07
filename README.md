@@ -6,17 +6,29 @@ This is a fork of dmitrytoropchin's unmaintained [DoxyJS](https://github.com/dmi
 
 ## Installation
 
-Install it once globally via [`npm`](https://www.npmjs.com/package/doxyjs):
+Install it locally by pulling down master and then running an npm install:
 
 ```sh
-npm install -g git+https://github.com/CeridianWeb/doxyjs.git
+npm install -g <path to repo>/doxyjs
+```
+
+Then add ceridiandoxyjs to your Windows PATH variable. 
+
+```sh
+C:\Program Files\nodejs\node_modules\ceridiandoxyjs\src
+```
+
+To install this module directly from the Github repo (note: does not work on Windows), run the following npm install:
+
+```sh
+npm install -g https://github.com/CeridianWeb/doxyjs
 ```
 
 ## Usage
 
 ### CLI
 
-You can use `doxyjs` as standalone CLI tool to generate pseudo C++ code from javascript source files.
+You can use `ceridiandoxyjs` as standalone CLI tool to generate pseudo C++ code from javascript source files.
 
 #### Example
 
@@ -62,7 +74,7 @@ To use `doxyjs` with Doxygen you must make few changes to your Doxyfile.
 *   Add the `.js` extension to the `FILTER_PATTERNS`:
 
     ```
-    FILTER_PATTERNS = *.js=doxyjs //where doxyjs is the path to the installed node_module
+    FILTER_PATTERNS = *.js=ceridiandoxyjs //where doxyjs is the path to the installed node_module
     ```
 *   Add the `.js` extension to `FILE_PATTERNS`:
 
